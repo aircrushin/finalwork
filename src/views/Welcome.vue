@@ -1,6 +1,9 @@
 <template>
+    <div class="nav">
+        <router-link class="about" to="/about">About</router-link>
+    </div>
     <div class="welcome container">
-        <h4>Welcome to InADaze</h4>
+        <h4>Welcome to 无聊</h4>
         <div v-if="showLogin">
             <h2>Login</h2>
              <LoginForm/>
@@ -13,6 +16,7 @@
 
         </div>
     </div>
+
 </template>
 
 <script>
@@ -31,11 +35,27 @@ export default {
 </script>
 
 <style>
+    .nav{
+        border: 0px solid #ccc;
+        width: 100px;
+        border-radius: 5%;
+        
+    }
+    .nav a.router-link-exact-active{
+        background-color: orange;
+        color: #fff;
+    }
+    .nav>a{
+		color:#222;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 16px;
+        padding-left: 10px;
+	}
     .welcome {
       padding: 20px 0;
       text-align: center;  
     }
-
     /* form style */
     .welcome form {
         margin: 20px auto;
@@ -65,6 +85,7 @@ export default {
 
     .welcome button {
         margin: 20px auto;
+        cursor: pointer;
     }
 
     @media (max-width: 576px) {

@@ -3,7 +3,7 @@
       <input type="email" required placeholder="email" v-model="email">
       <input type="password" required placeholder="password" v-model="password">
       <div class="error">{{ error }}</div>
-      <button>Log in</button>
+      <button @click = "goMain">登录</button>
   </form>
 </template>
 
@@ -23,9 +23,14 @@ export default {
            context.emit('login')
          }
        }
-
        return { email, password, handleSubmit}
-    }
+    },
+    methods: {
+      goMain(){
+        //通过push进行跳转
+        this.$router.push('/main')
+      }
+    },
 }
 </script>
 
