@@ -1,17 +1,22 @@
 <script>
+import LoginForm from "../components/LoginForm.vue"
+import SignupForm from "../components/SignupForm.vue";
   export default {
-      data() {
+    data() {
         return {
-          author:"FYH",
-          version:"1.01",
-          email:"ultrav0229@gmail.com",
-        }
-      },
-    }
+            author: "FYH",
+            version: "1.01",
+            email: "ultrav0229@gmail.com",
+        };
+    },
+    components: { LoginForm, SignupForm }
+}
 </script>
 
 <template>
-<div class="text">真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊真的很无聊</div>
+<div class="text">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere expedita culpa omnis, aspernatur, quos vel laboriosam deserunt sapiente excepturi similique quo quaerat odit assumenda mollitia officia accusamus id! Voluptates.
+</div>
 <footer class="footer">
 <div class="info">author:&emsp;{{author}}</div>
 <div class="info">version:&emsp;{{version}}</div>
@@ -28,6 +33,7 @@
   text-align: justify;
   text-align-last: justify;
   border: none;
+  background-color: #f1f6f9;
 }
 .info{
   color:#888;

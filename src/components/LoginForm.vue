@@ -1,7 +1,7 @@
 <template>
-  <form @submit.prevent="handleSubmit">
-      <input type="email" required placeholder="email" v-model="email">
-      <input type="password" required placeholder="password" v-model="password">
+  <form @submit.prevent="handleSubmit" method="post">
+      <input type="email" required placeholder="邮箱" v-model="email">
+      <input type="password" required placeholder="密码" v-model="password">
       <div class="error">{{ error }}</div>
       <button @click = "goMain">登录</button>
   </form>

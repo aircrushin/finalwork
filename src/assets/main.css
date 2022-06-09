@@ -12,11 +12,6 @@ body {
     background-color: #fff;
 }
 
-.error {
-    color: #ff3f80;
-    font-size: 14px;
-}
-
 button {
     padding: 10px 20px;
     text-decoration: none;

@@ -1,18 +1,20 @@
 <template>
     <div class="nav">
         <router-link class="about" to="/about">About</router-link>
+        <a class="about" href="https://github.com/aircrushin/boringwebsite" target="_blank">Github</a>
+        <router-link class="about" to="/support">Support</router-link>
     </div>
     <div class="welcome container">
-        <h4>Welcome to 无聊</h4>
+        <h4>Welcome to InADaze</h4>
         <div v-if="showLogin">
             <h2>Login</h2>
-             <LoginForm/>
-             <p>No account yet? <span @click="showLogin = false">Signup</span> instead</p>
+             <LoginForm @login="goMain"/>
+             <p>还没有账号？   <span @click="showLogin = false">注册</span> instead</p>
         </div>
         <div v-else>
             <h2>Sign up</h2>
             <SignupForm/>
-             <p>Already registered? <span @click="showLogin = true">Login</span> instead</p>
+             <p>已经注册了？   <span @click="showLogin = true">登录</span> instead</p>
 
         </div>
     </div>
@@ -29,12 +31,14 @@ export default {
     components: { SignupForm, LoginForm },
     setup() {
         const showLogin = ref(true)
+        const router = useRouter()
+
         return {showLogin}
     }
 }
 </script>
 
-<style>
+<style >
     .nav{
         border: 0px solid #ccc;
         width: 100px;
